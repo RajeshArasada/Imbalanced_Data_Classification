@@ -1,0 +1,200 @@
+booster[0]:
+0:[number_inpatient_log1p<6.12180374e-05] yes=1,no=2,missing=1
+	1:[norm_time_in_hospital<-1.11524105] yes=3,no=4,missing=3
+		3:leaf=-1.24600816
+		4:leaf=-0.0682943165
+	2:[number_inpatient_log1p<0.693146944] yes=5,no=6,missing=5
+		5:leaf=1.99871898
+		6:leaf=0.0442796387
+booster[1]:
+0:[age__50_60<1] yes=1,no=2,missing=1
+	1:[age__40_50<1] yes=3,no=4,missing=3
+		3:leaf=0.193918705
+		4:leaf=-0.704071403
+	2:[num_procedures_log1p<0.00070740853] yes=5,no=6,missing=5
+		5:leaf=-0.954328179
+		6:leaf=-0.403073907
+booster[2]:
+0:[age__30_40<1] yes=1,no=2,missing=1
+	1:[age__60_70<1] yes=3,no=4,missing=3
+		3:leaf=0.149530172
+		4:leaf=-0.438528597
+	2:[norm_time_in_hospital<-0.777816653] yes=5,no=6,missing=5
+		5:leaf=-0.242503971
+		6:leaf=-1.58686697
+booster[3]:
+0:[age__70_80<1] yes=1,no=2,missing=1
+	1:[age__80_90<1] yes=3,no=4,missing=3
+		3:leaf=0.285827994
+		4:leaf=-0.481449366
+	2:[grouped_diag_1_78<1] yes=5,no=6,missing=5
+		5:leaf=-0.354630768
+		6:leaf=-1.51765847
+booster[4]:
+0:[age__90_100<1] yes=1,no=2,missing=1
+	1:[gender_Male<1] yes=3,no=4,missing=3
+		3:leaf=0.214304402
+		4:leaf=-0.236088902
+	2:[num_procedures_log1p<1.09339213] yes=5,no=6,missing=5
+		5:leaf=-1.52707136
+		6:leaf=-2.28500581
+booster[5]:
+0:[grouped_diag_3_27<1] yes=1,no=2,missing=1
+	1:[number_inpatient_log1p<0.693752944] yes=3,no=4,missing=3
+		3:leaf=-0.00151017623
+		4:leaf=0.836263716
+	2:[age__60_70<1] yes=5,no=6,missing=5
+		5:leaf=-0.695945203
+		6:leaf=-1.26097655
+booster[6]:
+0:[age__20_30<1] yes=1,no=2,missing=1
+	1:[age__50_60<1] yes=3,no=4,missing=3
+		3:leaf=0.0966283754
+		4:leaf=-0.464966595
+	2:[norm_time_in_hospital<-0.785218179] yes=5,no=6,missing=5
+		5:leaf=-1.03136551
+		6:leaf=-2.09315801
+booster[7]:
+0:[number_outpatient_log1p<0.693131208] yes=1,no=2,missing=1
+	1:[number_outpatient_log1p<8.39066342e-06] yes=3,no=4,missing=3
+		3:leaf=-0.054327812
+		4:leaf=1.86514497
+	2:[number_outpatient_log1p<0.693382621] yes=5,no=6,missing=5
+		5:leaf=-1.13588524
+		6:leaf=-0.171138346
+booster[8]:
+0:[age__60_70<1] yes=1,no=2,missing=1
+	1:[age__40_50<1] yes=3,no=4,missing=3
+		3:leaf=0.182824224
+		4:leaf=-0.517204344
+	2:[grouped_diag_1_78<1] yes=5,no=6,missing=5
+		5:leaf=-0.289476424
+		6:leaf=-1.49590886
+booster[9]:
+0:[norm_time_in_hospital<-0.776275575] yes=1,no=2,missing=1
+	1:[norm_time_in_hospital<-1.11525798] yes=3,no=4,missing=3
+		3:leaf=-0.204907626
+		4:leaf=1.86051619
+	2:[norm_time_in_hospital<-0.776176453] yes=5,no=6,missing=5
+		5:leaf=-0.877004325
+		6:leaf=0.0599229857
+booster[10]:
+0:[norm_time_in_hospital<-0.437126786] yes=1,no=2,missing=1
+	1:[norm_time_in_hospital<-0.776176453] yes=3,no=4,missing=3
+		3:leaf=0.0488812886
+		4:leaf=1.8560164
+	2:[norm_time_in_hospital<-0.437109232] yes=5,no=6,missing=5
+		5:leaf=-0.987018883
+		6:leaf=0.0357218012
+booster[11]:
+0:[norm_time_in_hospital<-0.0980745256] yes=1,no=2,missing=1
+	1:[norm_time_in_hospital<-0.437109232] yes=3,no=4,missing=3
+		3:leaf=0.0567590632
+		4:leaf=1.7775228
+	2:[norm_time_in_hospital<-0.098021999] yes=5,no=6,missing=5
+		5:leaf=-1.06063056
+		6:leaf=0.0190266743
+booster[12]:
+0:[norm_time_in_hospital<0.241007388] yes=1,no=2,missing=1
+	1:[norm_time_in_hospital<-0.098021999] yes=3,no=4,missing=3
+		3:leaf=0.0408565775
+		4:leaf=1.74151444
+	2:[norm_time_in_hospital<0.241075858] yes=5,no=6,missing=5
+		5:leaf=-1.10007429
+		6:leaf=0.00596344657
+booster[13]:
+0:[age__70_80<1] yes=1,no=2,missing=1
+	1:[age__80_90<1] yes=3,no=4,missing=3
+		3:leaf=0.250456691
+		4:leaf=-0.281944066
+	2:[grouped_diag_3_40<1] yes=5,no=6,missing=5
+		5:leaf=-0.223451644
+		6:leaf=-0.823787868
+booster[14]:
+0:[num_procedures_log1p<1.94579899] yes=1,no=2,missing=1
+	1:[num_procedures_log1p<1.79200041] yes=3,no=4,missing=3
+		3:leaf=0.00692484947
+		4:leaf=1.89108443
+	2:[norm_time_in_hospital<0.575626731] yes=5,no=6,missing=5
+		5:leaf=-0.507577777
+		6:leaf=-0.99914372
+booster[15]:
+0:[grouped_diag_3_25<1] yes=1,no=2,missing=1
+	1:[grouped_diag_3_41<1] yes=3,no=4,missing=3
+		3:leaf=0.103941277
+		4:leaf=-0.711618364
+	2:[age__50_60<1] yes=5,no=6,missing=5
+		5:leaf=-0.271736056
+		6:leaf=-0.742041528
+booster[16]:
+0:[age__10_20<1] yes=1,no=2,missing=1
+	1:[norm_time_in_hospital<0.580106497] yes=3,no=4,missing=3
+		3:leaf=0.120634533
+		4:leaf=-0.205638215
+	2:[norm_time_in_hospital<0.410577238] yes=5,no=6,missing=5
+		5:leaf=-1.74665451
+		6:leaf=-3.75287294
+booster[17]:
+0:[grouped_diag_3_40<1] yes=1,no=2,missing=1
+	1:[grouped_diag_3_42<1] yes=3,no=4,missing=3
+		3:leaf=0.105075404
+		4:leaf=-0.44039914
+	2:[age__60_70<1] yes=5,no=6,missing=5
+		5:leaf=-0.393964171
+		6:leaf=-0.757406533
+booster[18]:
+0:[num_medications_log1p<2.07944727] yes=1,no=2,missing=1
+	1:[num_medications_log1p<2.07932377] yes=3,no=4,missing=3
+		3:leaf=-0.351750731
+		4:leaf=-0.979834437
+	2:[num_medications_log1p<2.19720221] yes=5,no=6,missing=5
+		5:leaf=1.8742075
+		6:leaf=0.0269990824
+booster[19]:
+0:[grouped_diag_3_49<1] yes=1,no=2,missing=1
+	1:[grouped_diag_3_59<1] yes=3,no=4,missing=3
+		3:leaf=0.0503829382
+		4:leaf=-0.970764935
+	2:[number_outpatient_log1p<0.00296349917] yes=5,no=6,missing=5
+		5:leaf=-0.95641315
+		6:leaf=-0.0466214195
+booster[20]:
+0:[pioglitazone_Steady<1] yes=1,no=2,missing=1
+	1:[pioglitazone_No<1] yes=3,no=4,missing=3
+		3:leaf=1.50522339
+		4:leaf=-0.00667793583
+	2:[number_emergency_log1p<0.000146757811] yes=5,no=6,missing=5
+		5:leaf=-0.660587907
+		6:leaf=-0.0909027085
+booster[21]:
+0:[grouped_diag_3_V4<1] yes=1,no=2,missing=1
+	1:[grouped_diag_2_49<1] yes=3,no=4,missing=3
+		3:leaf=0.0492943712
+		4:leaf=-0.641465187
+	2:[grouped_diag_1_V5<1] yes=5,no=6,missing=5
+		5:leaf=-1.12219059
+		6:leaf=-1.83673239
+booster[22]:
+0:[grouped_diag_1_49<1] yes=1,no=2,missing=1
+	1:[age__30_40<1] yes=3,no=4,missing=3
+		3:leaf=0.0396322422
+		4:leaf=-0.836691082
+	2:[norm_time_in_hospital<1.92324257] yes=5,no=6,missing=5
+		5:leaf=-0.863844812
+		6:leaf=-1.57346094
+booster[23]:
+0:[grouped_diag_2_40<1] yes=1,no=2,missing=1
+	1:[grouped_diag_2_27<1] yes=3,no=4,missing=3
+		3:leaf=0.0621437021
+		4:leaf=-0.524467349
+	2:[num_medications_log1p<1.94259071] yes=5,no=6,missing=5
+		5:leaf=0.10721457
+		6:leaf=-0.65098381
+booster[24]:
+0:[num_procedures_log1p<0.693129063] yes=1,no=2,missing=1
+	1:[num_procedures_log1p<1.32988862e-05] yes=3,no=4,missing=3
+		3:leaf=-0.134392813
+		4:leaf=1.75510442
+	2:[num_procedures_log1p<0.693185806] yes=5,no=6,missing=5
+		5:leaf=-0.552470624
+		6:leaf=0.0465140305
